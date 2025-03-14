@@ -1,15 +1,15 @@
-FROM quay.io/toolbx-images/alpine-toolbox:edge
+FROM ghcr.io/ublue-os/bluefin-cli:latest
 
-LABEL com.github.containers.toolbox="true" \
+LABEL com.github.containers.toolbox="false" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
       summary="A cloud-native terminal experience" \
       maintainer="jorge.castro@gmail.com"
 
 # Copy the setup scripts and package list
-COPY ../scripts/boxkit.sh /
+COPY ../scripts/robot.sh /
 COPY ../scripts/distrobox-shims.sh /
-COPY ../packages/boxkit.packages /
+COPY ../packages/robot.packages /
 
 # Run the setup scripts
-RUN chmod +x boxkit.sh distrobox-shims.sh && /boxkit.sh
-RUN rm /boxkit.sh /distrobox-shims.sh /boxkit.packages
+RUN chmod +x robot.sh distrobox-shims.sh && /robot.sh
+RUN rm /robot.sh /distrobox-shims.sh /robot.packages
