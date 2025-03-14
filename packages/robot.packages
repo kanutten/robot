@@ -6,11 +6,11 @@ cosign
 dbus-x11
 direnv
 ffmpeg
-github-cli
-#just
-#make
-#micro
-#ncdu
+#github-cli
+just
+make
+micro
+ncdu
 #ncurses
 #npm
 #plocate
