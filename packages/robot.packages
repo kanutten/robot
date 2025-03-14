@@ -1,8 +1,8 @@
-#age
-#btop
-#chezmoi
-#clipboard
-#cosign
+age
+btop
+chezmoi
+#wl-clipboard
+cosign
 #dbus-x11
 #direnv
 #ffmpeg
