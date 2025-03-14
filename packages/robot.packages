@@ -16,8 +16,8 @@ npm
 #plocate
 python3
 ripgrep
-speedtest-cli
-vimdiff
+#speedtest-cli
+#vimdiff
 wl-clipboard
 zellij
 zstd
