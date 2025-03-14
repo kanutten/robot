@@ -13,11 +13,11 @@ make
 #ncdu
 #ncurses
 npm
-plocate
+#plocate
 python3
 ripgrep
-#speedtest-cli
-#vimdiff
-#wl-clipboard
-#zellij
-#zstd
+speedtest-cli
+vimdiff
+wl-clipboard
+zellij
+zstd
