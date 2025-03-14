@@ -95,8 +95,8 @@ If you use distrobox:
     
 If you use toolbox:
 
-    toolbox create -i ghcr.io/ublue-os/boxkit -c boxkit
-    toolbox enter boxkit
+    toolbox create -i ghcr.io/kanutten/robot:latest -c robot
+    toolbox enter robot
 
 **NOTE:**
 - You can use `chezmoi` to pull down your dotfiles and set up git sync.
