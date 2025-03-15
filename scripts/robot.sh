@@ -6,4 +6,4 @@
 # Update the container and install packages
 apk update && apk upgrade
 grep -v '^#' ./robot.packages | xargs apk add
-brew install borgbackup
+
